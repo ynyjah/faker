@@ -5,6 +5,8 @@ from .. import Provider as PersonProvider
 
 class Provider(PersonProvider):
     formats = ["{{last_name}}{{first_name}}"]
+    formats_male = ["{{last_name_male}}{{first_name_male}}"]
+    formats_female = ["{{last_name_female}}{{first_name_female}}"]
 
     first_names_male = [
         "伟", "强", "磊", "洋", "勇", "军", "杰", "涛", "超", "明", "刚", "平", "辉", "鹏", "华", "飞",
